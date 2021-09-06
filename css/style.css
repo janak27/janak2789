@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 
@@ -46,9 +47,8 @@
     color: white;
     display: block;
     margin: 2px;
-    padding: 10px 70px 10px 70px;
+    padding: 10px 50px 10px 50px;
     font-family: 'Besley', serif;
-    
     text-decoration: none;
     border-radius:100px;
 }
@@ -81,7 +81,7 @@
 .home{
     display: flex;
     flex-direction: column;
-    height: 600px;
+    height: 500px;
     justify-content: center;
     align-items: center;
 }
@@ -91,7 +91,7 @@
     content: "";
     background-image: url('../img/abstract-retro-pattern-geometric-shapes-pink-light-blue-color-background-pastel-colors-pink-light-blue-128822111.jpg') ;
     background-repeat:  repeat;
-    height: 5000px;
+    height: 8000px;
     position: absolute;
     width: 100%;
     background-size: cover;
@@ -129,12 +129,13 @@
 }
 
 .center{
-    text-align: center;
+    text-align:justify;
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 1rem;
 }
 
 
 #services{
-    
     display: flex;
 }
 #services .box{
@@ -234,6 +235,7 @@ span{
     display: flex;
     justify-content:center;
     padding: 20px;
+    margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -255,11 +257,86 @@ span{
 }
 
 
-.arrow{
-    position:absolute;
-    top: 2000px;
-    right: 0;
-    color: azure;
-    font-size: 225px;
-    cursor: pointer;
+
+
+#videoback {
+    margin-top: 150px;
+    position: relative;
+    width: 100%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* overflow: hidden; */
+}
+
+
+.cont{
+    text-align: center;
+    font-size: 1rem;
+    border:5px solid black;
+    z-index: 1;
+    color: white;
+    display: block;
+    margin: 2px;
+    padding: 10px 70px 10px 70px;
+    font-family: 'Besley', serif;
+    border-radius:100px;
+}
+
+.cont:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.banner{
+    position: absolute;
+}
+
+.banner video{
+    border: 20px solid black;
+    border-radius:60px;
+}
+
+
+#about p {
+    color: purple;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Lexend Exa', sans-serif;
+    margin-right: 350px;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+#about{
+    display: flex;
+}
+
+#aboutbox{
+   display: flex;
+}
+
+.info{
+    border: 2px solid black;
+    border: 2px solid black;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 50px;   
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+}
+
+
+.myimage{
+    border: 2px solid black;
+    border: 2px solid black;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 50px;   
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
 }
